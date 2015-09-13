@@ -1,4 +1,7 @@
-* How to use:
+* My work of coding is AI bot, which I only implement in "Bot C++" folder.
+Compile C++ project with visual studio 2013 (Realease) and result of AI bot will be AI_template.exe in "2013_Release" folder.
+
+* How to open game with AI bot (This set up for game playing is from GAMELOFT Ha Noi studio): 
 - Install NodeJS: https://nodejs.org/download/
 - You can code in Javascript (for NodeJS), C++ or Java
 - You can do stuffs in opponent's turn. But be careful! If you take too much time, you may miss your turn and lose.
