@@ -1,0 +1,19 @@
+﻿Build started 8/21/2015 9:28:44 AM.
+     1>Project "F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\AI_Template.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"2013_Release\\" /Fd"2013_Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>src\main.cpp(213): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>src\main.cpp(832): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Release\AI_Template.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\\lib" AI_2013.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Release\AI_Template.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Release\AI_Template.lib" /MACHINE:X86 /SAFESEH 2013_Release\main.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+     1>AI_2013.lib(AI.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'AI_2013.lib(AI.obj)' or at 'F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Release\vc120.pdb'; linking object as if no debug info
+     1>AI_2013.lib(easywsclient.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'AI_2013.lib(easywsclient.obj)' or at 'F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Release\vc120.pdb'; linking object as if no debug info
+     1>AI_2013.lib(Game.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'AI_2013.lib(Game.obj)' or at 'F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Release\vc120.pdb'; linking object as if no debug info
+         AI_Template.vcxproj -> F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Release\AI_Template.exe
+     1>Done Building Project "F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\AI_Template.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28

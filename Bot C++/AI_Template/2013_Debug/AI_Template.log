@@ -1,0 +1,17 @@
+﻿Build started 7/9/2015 1:45:10 AM.
+     1>Project "F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\AI_Template.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"2013_Debug\\" /Fd"2013_Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Debug\AI_Template.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\\lib" AId_2013.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Debug\AI_Template.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Debug\AI_Template.lib" /MACHINE:X86 /SAFESEH 2013_Debug\main.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>AId_2013.lib(AI.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'AId_2013.lib(AI.obj)' or at 'F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Debug\vc120.pdb'; linking object as if no debug info
+     1>AId_2013.lib(easywsclient.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'AId_2013.lib(easywsclient.obj)' or at 'F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Debug\vc120.pdb'; linking object as if no debug info
+     1>AId_2013.lib(Game.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'AId_2013.lib(Game.obj)' or at 'F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Debug\vc120.pdb'; linking object as if no debug info
+         AI_Template.vcxproj -> F:\AIcontest\Pack1.5b\Pack\Bot C++\2013_Debug\AI_Template.exe
+     1>Done Building Project "F:\AIcontest\Pack1.5b\Pack\Bot C++\AI_Template\AI_Template.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.02
